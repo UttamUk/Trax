@@ -737,7 +737,7 @@ header .navbar .nav-btn:hover {
 }
 
 .slick-next {
-  bottom: -22% !important;
+  bottom: -14% !important;
   left: -63%;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
