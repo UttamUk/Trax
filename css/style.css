@@ -691,8 +691,10 @@ header .navbar .nav-btn:hover {
 
 .features .feature-tab-content .feature-box .feature-box-img img {
   width: 90%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
   position: relative;
-  top: -20%;
   margin: 0 auto;
 }
 
