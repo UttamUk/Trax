@@ -842,6 +842,9 @@ header{
             right: 22%;
             top: -30%;
             transform: translate(-50%, -50%);
+            @include xsm{
+                display: none;
+            }
         }
         .lock-desc2{
             position: absolute;
@@ -850,18 +853,27 @@ header{
             transform: translate(-50%, -50%) scaleX(-1);
             // transform: rotate(54deg);
             // transform: scaleX(-1);
+            @include xsm{
+                display: none;
+            }
         }
         .lock-desc3{
             position: absolute;
             right: 22%;
             bottom: -60%;
             transform: translate(-50%, -50%) scaleY(-1);
+            @include xsm{
+                display: none;
+            }
         }
         .lock-desc4{
             position: absolute;
             left: 40%;
             bottom: -60%;
             transform: translate(-50%, -50%) scale(-1);
+            @include xsm{
+                display: none;
+            }
         }
         .lock{
             width: 20%;

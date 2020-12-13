@@ -977,12 +977,24 @@ header .navbar .nav-btn:hover {
           transform: translate(-50%, -50%);
 }
 
+@media (max-width: 575.98px) {
+  .security .security-lock .lock-desc {
+    display: none;
+  }
+}
+
 .security .security-lock .lock-desc2 {
   position: absolute;
   left: 40%;
   top: -30%;
   -webkit-transform: translate(-50%, -50%) scaleX(-1);
           transform: translate(-50%, -50%) scaleX(-1);
+}
+
+@media (max-width: 575.98px) {
+  .security .security-lock .lock-desc2 {
+    display: none;
+  }
 }
 
 .security .security-lock .lock-desc3 {
@@ -993,12 +1005,24 @@ header .navbar .nav-btn:hover {
           transform: translate(-50%, -50%) scaleY(-1);
 }
 
+@media (max-width: 575.98px) {
+  .security .security-lock .lock-desc3 {
+    display: none;
+  }
+}
+
 .security .security-lock .lock-desc4 {
   position: absolute;
   left: 40%;
   bottom: -60%;
   -webkit-transform: translate(-50%, -50%) scale(-1);
           transform: translate(-50%, -50%) scale(-1);
+}
+
+@media (max-width: 575.98px) {
+  .security .security-lock .lock-desc4 {
+    display: none;
+  }
 }
 
 .security .security-lock .lock {
