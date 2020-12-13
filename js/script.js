@@ -48,7 +48,7 @@ sr.reveal('.home-box, .home-list', {
 });
 
 
-sr.reveal('.choose-title', {
+sr.reveal('.feature-subtitle', {
 	duration: 1500,
 	origin: 'bottom',
 	distance: '70px',
@@ -59,7 +59,7 @@ sr.reveal('.choose-title', {
 });
 
 
-sr.reveal('.choose-content', {
+sr.reveal('.feature-title', {
 	duration: 1900,
 	origin: 'bottom',
 	distance: '40px',
@@ -69,8 +69,27 @@ sr.reveal('.choose-content', {
 	easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
 });
 
+sr.reveal('.security-title', {
+	duration: 2000,
+	origin: 'bottom',
+	distance: '110px',
+	viewFactor: 0.01,
+	opacity: 0.3,
+	delay: 0,
+	easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+	// rotate: { x: 0, y: 10, z: 0 },
+});
 
-sr.reveal('.choose-box', {
+sr.reveal('.security-data', {
+	duration: 2000,
+	origin: 'bottom',
+	distance: '100px',
+	delay: 100,
+	viewFactor: 0.01,
+	opacity: 0,
+});
+
+sr.reveal('.security-box', {
 	duration: 1500,
 	origin: 'bottom',
 	distance: '70px',
@@ -79,7 +98,16 @@ sr.reveal('.choose-box', {
 	opacity: 0.1,
 	easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
 });
-sr.reveal('.product-box', {
+sr.reveal('.pricing-head', {
+	duration: 1500,
+	origin: 'bottom',
+	distance: '70px',
+	viewFactor: 0.01,
+	delay: 0,
+	opacity: 0.1,
+	easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+});
+sr.reveal('.pricing-sub', {
 	duration: 1500,
 	origin: 'bottom',
 	distance: '70px',
