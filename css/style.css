@@ -928,6 +928,13 @@ header .navbar .nav-btn:hover {
   padding: 6% 0% 4% 0%;
 }
 
+.security .lock-circle {
+  background-image: url("../images/circles.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .security .security-title {
   font-family: axiforma-ExtraBold;
   font-size: 40px;
@@ -959,6 +966,39 @@ header .navbar .nav-btn:hover {
 
 .security .security-lock {
   text-align: center;
+  position: relative;
+}
+
+.security .security-lock .lock-desc {
+  position: absolute;
+  right: 22%;
+  top: -30%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.security .security-lock .lock-desc2 {
+  position: absolute;
+  left: 40%;
+  top: -30%;
+  -webkit-transform: translate(-50%, -50%) scaleX(-1);
+          transform: translate(-50%, -50%) scaleX(-1);
+}
+
+.security .security-lock .lock-desc3 {
+  position: absolute;
+  right: 22%;
+  bottom: -60%;
+  -webkit-transform: translate(-50%, -50%) scaleY(-1);
+          transform: translate(-50%, -50%) scaleY(-1);
+}
+
+.security .security-lock .lock-desc4 {
+  position: absolute;
+  left: 40%;
+  bottom: -60%;
+  -webkit-transform: translate(-50%, -50%) scale(-1);
+          transform: translate(-50%, -50%) scale(-1);
 }
 
 .security .security-lock .lock {

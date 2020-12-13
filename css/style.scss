@@ -803,6 +803,12 @@ header{
 
 .security{
     padding: 6% 0% 4% 0%;
+    .lock-circle{
+        background-image: url('../images/circles.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
     .security-title{
         font-family: axiforma-ExtraBold;
         font-size: 40px;
@@ -829,7 +835,34 @@ header{
     }
     .security-lock{
         text-align: center;
+        position: relative;
         // padding: 2% 0%;
+        .lock-desc{
+            position: absolute;
+            right: 22%;
+            top: -30%;
+            transform: translate(-50%, -50%);
+        }
+        .lock-desc2{
+            position: absolute;
+            left: 40%;
+            top: -30%;
+            transform: translate(-50%, -50%) scaleX(-1);
+            // transform: rotate(54deg);
+            // transform: scaleX(-1);
+        }
+        .lock-desc3{
+            position: absolute;
+            right: 22%;
+            bottom: -60%;
+            transform: translate(-50%, -50%) scaleY(-1);
+        }
+        .lock-desc4{
+            position: absolute;
+            left: 40%;
+            bottom: -60%;
+            transform: translate(-50%, -50%) scale(-1);
+        }
         .lock{
             width: 20%;
             height: auto;

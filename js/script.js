@@ -121,44 +121,44 @@ sr.reveal('.pricing-sub', {
 
 
 
-sr.reveal('.pricing-img', {
-	duration: 1500,
-	origin: 'bottom',
-	distance: '70px',
-	viewFactor: 0.01,
-	delay: 0,
-	opacity: 0.1,
-	easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
-});
-sr.reveal('.pricing-heading', {
-	duration: 1500,
-	origin: 'bottom',
-	distance: '70px',
-	viewFactor: 0.01,
-	delay: 0,
-	opacity: 0.1,
-	easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
-});
+// sr.reveal('.pricing-img', {
+// 	duration: 1500,
+// 	origin: 'bottom',
+// 	distance: '70px',
+// 	viewFactor: 0.01,
+// 	delay: 0,
+// 	opacity: 0.1,
+// 	easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+// });
+// sr.reveal('.pricing-heading', {
+// 	duration: 1500,
+// 	origin: 'bottom',
+// 	distance: '70px',
+// 	viewFactor: 0.01,
+// 	delay: 0,
+// 	opacity: 0.1,
+// 	easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+// });
 
 
-sr.reveal('.how-do-iget-head', {
-	duration: 1500,
-	origin: 'bottom',
-	distance: '70px',
-	viewFactor: 0.01,
-	delay: 0,
-	opacity: 0.1,
-	easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
-});
-sr.reveal('.how-do-iget-subhead', {
-	duration: 1500,
-	origin: 'bottom',
-	distance: '70px',
-	viewFactor: 0.01,
-	delay: 0,
-	opacity: 0.1,
-	easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
-});
+// sr.reveal('.how-do-iget-head', {
+// 	duration: 1500,
+// 	origin: 'bottom',
+// 	distance: '70px',
+// 	// viewFactor: 0.01,
+// 	delay: 0,
+// 	opacity: 0.1,
+// 	easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+// });
+// sr.reveal('.how-do-iget-subhead', {
+// 	duration: 1500,
+// 	origin: 'bottom',
+// 	distance: '70px',
+// 	// viewFactor: 0.01,
+// 	delay: 0,
+// 	opacity: 0.1,
+// 	easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+// });
 
 
 
