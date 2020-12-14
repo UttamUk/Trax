@@ -168,6 +168,7 @@ $(document).ready(function () {
 		slidesToScroll: 1,
 		arrows: true,
 		dots: true,
+		mobileFirst:true,
 		fade: true,
 		asNavFor: '.slider-nav',
 		prevArrow: '<button class="slick-prev"><i class="fa fa-arrow-left"></i></button>',
@@ -178,7 +179,8 @@ $(document).ready(function () {
 		// slidesToScroll: 1,
 		asNavFor: '.slider-for',
 		dots: true,
-		focusOnSelect: true
+		focusOnSelect: true,
+		mobileFirst:true,
 	});
 
 	$('.slider').on('afterChange', function () {

@@ -266,7 +266,9 @@ header{
             // margin-bottom: 4%;
             margin: 4% 0%;
             @include xsm{
-                font-size: 30px;
+                font-size: 20px;
+                margin-top: 40%;
+                margin-bottom: 3% !important;
             }
             @include sm{
                 font-size: 35px;
@@ -281,7 +283,7 @@ header{
             color: rgba(255, 255, 255, 0.8);
             margin-bottom: 4%;
             @include xsm{
-                margin-top: 16%;
+                margin-top: 8%;
                 font-size: 14px;
             }
             @include sm{
@@ -341,6 +343,7 @@ header{
         @include xsm{
             text-align: center;
             padding-top: 1%;
+            margin-top: 20%;
         }
         @include sm{
             text-align: center;
@@ -353,9 +356,9 @@ header{
             width: 100%;
             height: auto;
             animation: ror 15s linear infinite both;
-            // @include md{
-            //     width: 90%;
-            // }
+            @include xsm{
+                width: 90%;
+            }
         }
     }
     .scroll-btn{
@@ -454,6 +457,7 @@ header{
         @include xsm{
             font-size: 12px;
             width: 90%;
+            margin-bottom: 2%;
         }
         @include sm{
             font-size: 14px;
@@ -466,7 +470,7 @@ header{
         color: #ffffff;
         margin-bottom: 8%;
         @include xsm{
-            font-size: 22px;
+            font-size: 20px;
         }
         @include sm{
             font-size: 28px;
@@ -484,6 +488,9 @@ header{
             padding: 4% 6%;
             margin: 1% 0%;
             transition: all 350ms linear;
+            @include xsm{
+                font-size: 11px;
+            }
             &.active{
                 border-radius: 10px;
                 box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.102);
@@ -578,9 +585,9 @@ header{
                 font-family: axiforma-Bold;
                 font-size: 22px;
                 // margin-bottom: 1%;
-                // @include xsm{
-                //     font-size: 22px;
-                // }
+                @include xsm{
+                    font-size: 16px;
+                }
                 // @include sm{
                 //     font-size: 28px;
                 // }
@@ -606,6 +613,10 @@ header{
                 width: 100%;
                 height: 42vh;
                 text-align: center;
+                @include xsm{
+                    height: auto;
+                    padding-bottom: 3%;
+                }
                 img{
                     width: 90%;
                     height: auto;
@@ -623,6 +634,17 @@ header{
 //     padding-top: 6% !important;
 // }
 
+// .slick-track{
+//     display: block;
+//     width: 100% !important;
+// }
+
+
+@media screen and (max-width: 480px) {
+  .slick-codepen, .slick-codepen .slick-slide { height: 220px; }
+  .wrapper { width: 100%; }
+}
+
 .slick-list{
     overflow: inherit;
 }
@@ -638,6 +660,10 @@ header{
     position: absolute;
     left: -63%;
     top: 25%;
+    @include xsm{
+        left: -11%;
+        top: 14%;
+    }
     li{
         margin: 1% 5px;
     }
@@ -646,6 +672,10 @@ header{
     top: 5% !important;
     left: -63%;
     transform: rotate(90deg);
+    @include xsm{
+        left: -10%;
+        // top: 3%;
+    }
     &:before{
         // color: #6C63FF !important;
         display: none;
@@ -655,6 +685,9 @@ header{
     bottom: -14% !important;
     left: -63%;
     transform: rotate(90deg);
+    @include xsm{
+        left: -10%;
+    }
     &:before{
         // color: #6C63FF !important;
         display: none;
@@ -674,6 +707,10 @@ header{
     position: absolute;
     top: initial;
     z-index: 99;
+    @include xsm{
+        width: 20px;
+        height: 20px;
+    }
 }
 .slick-prev:hover, .slick-next:hover{
     background-color: rgb(107, 107, 107);
@@ -693,6 +730,9 @@ header{
 .pricing-box{
     position: relative;
     margin-bottom: 3%;
+    @include xsm{
+        margin-bottom: 7%;
+    }
     .line{
         position: absolute;
         right: -23%;
@@ -720,7 +760,7 @@ header{
         color: #ffffff;
         margin-bottom: 4%;
         @include xsm{
-            font-size: 22px;
+            font-size: 20px;
         }
         @include sm{
             font-size: 28px;
@@ -732,6 +772,9 @@ header{
         font-family: axiforma-Regular;
         line-height: 1.8;
         margin-bottom: 4%;
+        @include xsm{
+            font-size: 12px;
+        }
     }
     .pricing-subheading{
         font-family: axiforma-Bold;
@@ -739,7 +782,8 @@ header{
         color: #ffffff;
         margin-bottom: 20%;
         @include xsm{
-            font-size: 16px;
+            font-size: 12px;
+            margin-bottom: 3%;
         }
     }
     .days{
@@ -749,6 +793,10 @@ header{
         margin-bottom: 20%;
         span{
             font-size: 14px;
+        }
+        @include xsm{
+            font-size: 11px;
+            margin-bottom: 3%;
         }
     }
     
@@ -779,6 +827,12 @@ header{
                 position: relative;
                 top: 3px;
                 font-size: 20px;
+                @include xsm{
+                    font-size: 12px;
+                    margin-right: 5px;
+                    top: -3px;
+                    
+                }
             }
         }
     }
@@ -786,6 +840,10 @@ header{
         color: rgba(255, 255, 255, 0.8);
         transition: all 400ms cubic-bezier(0.645, 0.045, 0.355, 1);
         font-family: axiforma-Regular;
+        @include xsm{
+            font-size: 12px;
+            margin-bottom: 4px;
+        }
     }
     .pricing-btn{
         background-color: #1C1D21;
@@ -798,6 +856,10 @@ header{
         font-size: 24px;
         font-family: axiforma-Regular;
         margin-top: 3%;
+        @include xsm{
+            height: 40px;
+            font-size: 14px;
+        }
     }
 }
 
@@ -832,6 +894,10 @@ header{
         width: 70%;
         margin: 0 auto;
         margin-bottom: 10%;
+        @include xsm{
+            font-size: 12px;
+            width: 96%;
+        }
     }
     .security-lock{
         text-align: center;
@@ -894,10 +960,19 @@ header{
         padding: 6px;
         margin-bottom: 2%;
         position: relative;
+        @include xsm{
+            text-align: center;
+        }
         &.security-box1{
             text-align: right;
+            @include xsm{
+                text-align: center;
+            }
             .security-img{
                 margin-left: auto;
+                @include xsm{
+                    margin: 10px auto;
+                }
             }
         }
         // &.security-box21{
@@ -930,6 +1005,9 @@ header{
             align-items: center;
             justify-content: center;
             margin-bottom: 25px;
+            @include xsm{
+                margin: 10px auto;
+            }
             img{
                 width: 20px;
                 height: auto;
@@ -941,12 +1019,18 @@ header{
             font-size: 18px;
             font-family: axiforma-SemiBold;
             margin-bottom: 15px;
+            @include xsm{
+                font-size: 12px;
+            }
         }
         .security-content{
             color: rgba(255, 255, 255, 0.8);
             font-size: 13px;
             line-height: 1.7;
             font-family: axiforma-Regular;
+            @include xsm{
+                font-size: 11px;
+            }
         }
     }
 }
@@ -1125,24 +1209,45 @@ header{
 .how-do-iget{
     padding: 6% 0%;
     .how-do-iget-sec{
+        .media{
+            @include xsm{
+                flex-direction: column;
+                align-items: center;
+            }
+        }
 
         .how-do-iget-img{
             width: 130px;
+            @include xsm{
+                width: 50px;
+                // margin-right: auto;
+                // margin-left: auto;
+            }
         }
         .how-do-iget-right{
             margin-left: 8%;
             padding-top: 20px;
+            @include xsm{
+                padding-top: 1%;
+            }
             .how-do-iget-head{
                 font-family: axiforma-ExtraBold;
                 font-size: 40px;
                 color: #ffffff;
                 margin-bottom: 6%;
+                @include xsm{
+                    font-size: 20px;
+                    margin-bottom: 2%;
+                }
             }
             .how-do-iget-subhead{
                 font-family: axiforma-Regular;
                 font-size: 20px;
                 line-height: 1.8;
                 color: rgba(255, 255, 255, 0.8);
+                @include xsm{
+                    font-size: 12px;
+                }
             }
         }
     }
@@ -1157,6 +1262,9 @@ header{
         font-family: axiforma-ExtraBold;
         font-size: 40px;
         color: #ffffff;
+        @include xsm{
+            font-size: 20px;
+        }
     }
 
     .price-right{
@@ -1165,6 +1273,9 @@ header{
             font-size: 20px;
             line-height: 1.8;
             color: rgba(255, 255, 255, 0.8);
+            @include xsm{
+                font-size: 12px;
+            }
         }
     }
 }
@@ -1177,6 +1288,10 @@ header{
         font-size: 40px;
         color: #ffffff;
         margin-bottom: 6%;
+        @include xsm{
+            font-size: 20px;
+            margin-bottom: 2%;
+        }
     }
     .faq-sec{
 
@@ -1192,6 +1307,12 @@ header{
                 text-decoration: none;
                 padding-top: 15px;
                 padding-bottom: 15px;
+                white-space: normal;
+                @include xsm{
+                    font-size: 12px;
+                    padding-top: 6px;
+                    padding-bottom: 6px;
+                }
                 &.collapsed{
                     span img{
                         transform: rotate(0deg);
@@ -1199,9 +1320,15 @@ header{
                 }
                 span{
                     margin-right: 20px;
+                    @include xsm{
+                        margin-right: 6px;
+                    }
                     img{
                         transform: rotate(90deg);
                         transition: all 400ms ease-in-out;
+                        @include xsm{
+                            width: 10px;
+                        }
                     }
                 }
             }
@@ -1212,6 +1339,10 @@ header{
                 color: rgba(255, 255, 255, 0.8);
                 padding-top: 0px;
                 padding-left: 40px;
+                @include xsm{
+                    font-size: 12px;
+                    padding-left: 10px;
+                }
             }
         }
     }
