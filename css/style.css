@@ -65,6 +65,9 @@ header .navbar {
   header .navbar {
     padding: 2% 2.5%;
     top: 0;
+    background-color: #2b2b2b;
+    -webkit-box-shadow: 0px 0 15px rgba(0, 0, 0, 0.05);
+            box-shadow: 0px 0 15px rgba(0, 0, 0, 0.05);
   }
 }
 
@@ -141,6 +144,12 @@ header .navbar .navbar-brand h4 {
   font-weight: bold;
   font-size: 32px;
   margin-bottom: 0;
+}
+
+@media (max-width: 575.98px) {
+  header .navbar .navbar-brand h4 {
+    font-size: 16px;
+  }
 }
 
 header .navbar .custom-navbar-nav {
@@ -232,6 +241,7 @@ header .navbar .nav-btn:hover {
 @media (min-width: 576px) and (max-width: 767.98px) {
   .home {
     height: auto;
+    padding: 2% 0% 4% 0%;
   }
 }
 
@@ -272,7 +282,7 @@ header .navbar .nav-btn:hover {
 @media (max-width: 575.98px) {
   .home .home-content .home-title {
     font-size: 20px;
-    margin-top: 40%;
+    margin-top: 15%;
     margin-bottom: 3% !important;
   }
 }
@@ -835,6 +845,14 @@ header .navbar .nav-btn:hover {
 
 .slick-prev:focus, .slick-next:focus {
   background-color: #fff;
+}
+
+@media (max-width: 575.98px) {
+  .slick-list {
+    overflow: hidden;
+    width: 100%;
+    display: block;
+  }
 }
 
 .subscription {
