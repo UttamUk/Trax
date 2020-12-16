@@ -234,13 +234,13 @@ header .navbar .nav-btn:hover {
 
 @media (max-width: 575.98px) {
   .home {
-    height: auto;
+    min-height: auto;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .home {
-    height: auto;
+    min-height: auto;
     padding: 2% 0% 4% 0%;
   }
 }
@@ -248,7 +248,21 @@ header .navbar .nav-btn:hover {
 @media (min-width: 768px) and (max-width: 991.98px) {
   .home {
     padding: 9% 0% 4% 0%;
-    height: auto;
+    min-height: auto;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1919.98px) {
+  .home {
+    padding: 9% 0% 4% 0%;
+    min-height: auto;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2559.98px) {
+  .home {
+    padding: 9% 0% 4% 0%;
+    min-height: auto;
   }
 }
 
