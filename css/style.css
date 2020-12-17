@@ -123,6 +123,8 @@ header .navbar .navbar-toggler {
 header .navbar .navbar-brand {
   padding: 0;
   font-size: initial;
+  position: relative;
+  z-index: 99999;
 }
 
 header .navbar .navbar-brand .logo {
