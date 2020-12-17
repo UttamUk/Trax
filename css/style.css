@@ -103,7 +103,7 @@ header .navbar.blackto .navbar-brand .logo {
 
 @media (max-width: 575.98px) {
   header .navbar.blackto .navbar-brand .logo {
-    width: 80px;
+    width: 40px;
   }
 }
 
@@ -133,7 +133,7 @@ header .navbar .navbar-brand .logo {
 
 @media (max-width: 575.98px) {
   header .navbar .navbar-brand .logo {
-    width: 80px;
+    width: 40px;
   }
 }
 
