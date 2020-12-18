@@ -195,8 +195,8 @@ header .navbar .nav-btn.nav-btn1 {
   background-color: #6C63FF;
   -webkit-box-shadow: 0px 10px 25px rgba(108, 99, 255, 0.502);
           box-shadow: 0px 10px 25px rgba(108, 99, 255, 0.502);
-  margin-left: 15px;
   color: #ffffff;
+  margin-left: 15px;
 }
 
 header .navbar .nav-btn:hover {
@@ -1745,5 +1745,236 @@ footer .social-media .social-links {
 
 footer .social-media .social-links i {
   line-height: 1.7;
+}
+
+.choose {
+  width: 100%;
+  height: auto;
+  padding: 5% 0% 3% 0%;
+}
+
+.choose .choose-title {
+  font-family: axiforma-Bold;
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+@media (max-width: 575.98px) {
+  .choose .choose-title {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .choose .choose-title {
+    font-size: 28px;
+  }
+}
+
+.pricing-table {
+  margin-top: 3%;
+  border-radius: 4px;
+}
+
+.pricing-table .tbl-th {
+  vertical-align: middle;
+  text-align: center;
+  font-family: axiforma-Regular;
+  font-size: 14px;
+  color: #6C63FF;
+  border: 1px solid #6C63FF;
+}
+
+.pricing-table .tbl-th.tbl-th1 {
+  font-size: 24px;
+}
+
+.pricing-table .tbl-tr .tbl-td {
+  border: 1px solid #6C63FF;
+  color: #ffffff;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 12px;
+  padding: 2%;
+}
+
+.pricing-table .tbl-tr .tbl-td:first-child {
+  color: #6C63FF;
+  font-family: axiforma-Regular;
+}
+
+.pricing-table .tbl-tr .tbl-td span {
+  font-size: 20px;
+}
+
+.pricing-table .tbl-tr .tbl-td span .fa-check-square {
+  color: #1fa31f;
+}
+
+.pricing-table .tbl-tr .tbl-td span .fa-times-circle {
+  color: #ff0000;
+}
+
+.plans {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 3% 0%;
+}
+
+.plans .plans-tab {
+  margin-bottom: 6%;
+}
+
+.plans .plans-tab .nav-item {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.plans .plans-tab .nav-item .nav-link {
+  background-color: #2b2b2b;
+  border-radius: 100px;
+  padding: 12px 62px;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  color: #ffffff;
+  outline: none;
+  font-family: axiforma-Regular;
+}
+
+@media (max-width: 575.98px) {
+  .plans .plans-tab .nav-item .nav-link {
+    padding: 6px 20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .plans .plans-tab .nav-item .nav-link {
+    padding: 6px 20px;
+  }
+}
+
+.plans .plans-tab .nav-item .nav-link.plans-link {
+  position: relative;
+  left: 26px;
+  -webkit-transition: all 800ms ease;
+  transition: all 800ms ease;
+}
+
+@media (max-width: 575.98px) {
+  .plans .plans-tab .nav-item .nav-link.plans-link {
+    left: 14px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .plans .plans-tab .nav-item .nav-link.plans-link {
+    left: 14px;
+  }
+}
+
+.plans .plans-tab .nav-item .nav-link.active {
+  border: 1px solid #6C63FF;
+  outline: none;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  background-color: #2b2b2b;
+  color: #6C63FF;
+  position: relative;
+  z-index: 99;
+}
+
+.plans .plans-tab-content {
+  position: relative;
+  width: 100%;
+  padding-bottom: 1%;
+}
+
+.plans .plans-tab-content .feature-box-child1 {
+  width: 100%;
+  height: 100%;
+  padding: 5% 10%;
+  margin-bottom: 3%;
+  border-radius: 6px;
+  background-color: #2b2b2b;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  position: relative;
+}
+
+.plans .plans-tab-content .feature-box-child1:hover {
+  -webkit-transform: scale(1.14, 1.18);
+          transform: scale(1.14, 1.18);
+  z-index: 999;
+  -webkit-box-shadow: -3px 0px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: -3px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 575.98px) {
+  .plans .plans-tab-content .feature-box-child1:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+.plans .plans-tab-content .feature-box-child1 .feature-title1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.plans .plans-tab-content .feature-box-child1 .feature-title1 span {
+  color: #ffffff;
+  display: inline;
+}
+
+.plans .plans-tab-content .feature-box-child1 hr {
+  width: 65%;
+  border-top: 1px solid #424242;
+  margin-bottom: 8%;
+}
+
+.plans .plans-tab-content .feature-box-child1 .feature-list {
+  list-style: none;
+  margin: 3% 0%;
+  padding-left: 28px;
+  min-height: 200px;
+}
+
+.plans .plans-tab-content .feature-box-child1 .feature-list li {
+  font-family: axiforma-Regular;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.8);
+  padding-bottom: 14px;
+  position: relative;
+}
+
+.plans .plans-tab-content .feature-box-child1 .feature-list li span {
+  position: absolute;
+  top: 2px;
+  left: -22px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 11px;
+  z-index: 99;
+}
+
+.plan-btn {
+  width: 150px;
+  background: #6C63FF;
+  -webkit-box-shadow: 0px 10px 25px rgba(108, 99, 255, 0.502);
+          box-shadow: 0px 10px 25px rgba(108, 99, 255, 0.502);
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: axiforma-SemiBold;
+  font-size: 14px;
+  height: 38px;
+  border-radius: 5px;
+  margin: 3% 0%;
 }
 /*# sourceMappingURL=style.css.map */
