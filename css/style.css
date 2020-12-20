@@ -723,6 +723,12 @@ header .navbar .nav-btn:hover {
   }
 }
 
+.features .feature-tab-content .feature-box .feature-box-sub-heading {
+  font-family: axiforma-Bold;
+  font-size: 13px;
+  color: #000000;
+}
+
 .features .feature-tab-content .feature-box .feature-box-subheading {
   font-family: axiforma-Regular;
   font-size: 14px;

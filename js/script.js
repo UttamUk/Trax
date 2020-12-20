@@ -24,6 +24,17 @@ sr.reveal('.home-title', {
 	// rotate: { x: 0, y: 10, z: 0 },
 });
 
+sr.reveal('.feature-box-sub-heading', {
+	duration: 2000,
+	origin: 'bottom',
+	distance: '110px',
+	opacity: 0.3,
+	delay: 0,
+	easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+	// rotate: { x: 0, y: 10, z: 0 },
+});
+
+
 sr.reveal('.home-subtitle', {
 	duration: 2000,
 	origin: 'bottom',
