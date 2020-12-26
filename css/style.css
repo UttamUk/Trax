@@ -44,17 +44,11 @@ body {
   width: 100%;
   font-family: axiforma-Regular;
   background: #0B0B0F;
+  position: relative;
 }
 
 /*-------------------------Header part------------------------------*/
-header {
-  width: 100%;
-  z-index: 999;
-  padding: 0;
-  margin: 0;
-}
-
-header .navbar {
+.navbar {
   font-weight: 100;
   padding: 2% 6%;
   height: auto;
@@ -62,7 +56,7 @@ header .navbar {
 }
 
 @media (max-width: 575.98px) {
-  header .navbar {
+  .navbar {
     padding: 2% 2.5%;
     top: 0;
     background-color: #2b2b2b;
@@ -72,20 +66,20 @@ header .navbar {
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  header .navbar {
+  .navbar {
     padding: 2% 2.5%;
     top: 0;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  header .navbar {
+  .navbar {
     padding: 2% 2.5%;
     top: 0;
   }
 }
 
-header .navbar.blackto {
+.navbar.blackto {
   background-color: #2b2b2b;
   -webkit-box-shadow: 0px 0 15px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 0 15px rgba(0, 0, 0, 0.05);
@@ -95,53 +89,53 @@ header .navbar.blackto {
   padding: 1% 6%;
 }
 
-header .navbar.blackto .navbar-brand .logo {
-  width: 80px;
+.navbar.blackto .navbar-brand .logo {
+  width: 40px;
   -webkit-transition: all 300ms linear;
   transition: all 300ms linear;
 }
 
 @media (max-width: 575.98px) {
-  header .navbar.blackto .navbar-brand .logo {
+  .navbar.blackto .navbar-brand .logo {
     width: 40px;
   }
 }
 
-header .navbar.blackto .custom-navbar-nav .nav-link {
+.navbar.blackto .custom-navbar-nav .nav-link {
   color: #fcfcfc !important;
 }
 
-header .navbar.blackto .custom-navbar-nav .nav-link:hover {
+.navbar.blackto .custom-navbar-nav .nav-link:hover {
   color: #4a4a4a !important;
 }
 
-header .navbar .navbar-toggler {
+.navbar .navbar-toggler {
   color: #353a47 !important;
   outline: none;
 }
 
-header .navbar .navbar-brand {
+.navbar .navbar-brand {
   padding: 0;
   font-size: initial;
   position: relative;
   z-index: 99999;
 }
 
-header .navbar .navbar-brand .logo {
+.navbar .navbar-brand .logo {
   width: 80px;
 }
 
 @media (max-width: 575.98px) {
-  header .navbar .navbar-brand .logo {
+  .navbar .navbar-brand .logo {
     width: 40px;
   }
 }
 
-header .navbar .navbar-brand .media-body {
+.navbar .navbar-brand .media-body {
   margin-left: -14px;
 }
 
-header .navbar .navbar-brand h4 {
+.navbar .navbar-brand h4 {
   color: #ffffff;
   font-weight: bold;
   font-size: 32px;
@@ -149,34 +143,34 @@ header .navbar .navbar-brand h4 {
 }
 
 @media (max-width: 575.98px) {
-  header .navbar .navbar-brand h4 {
+  .navbar .navbar-brand h4 {
     font-size: 16px;
   }
 }
 
-header .navbar .custom-navbar-nav {
+.navbar .custom-navbar-nav {
   position: relative;
   margin-right: 2%;
 }
 
-header .navbar .custom-navbar-nav .nav-item .nav-link {
+.navbar .custom-navbar-nav .nav-item .nav-link {
   padding: 0.5rem 1.5rem;
   color: white;
   font-size: 14px;
   font-family: axiforma-SemiBold;
 }
 
-header .navbar .custom-navbar-nav .nav-item .nav-link:hover {
+.navbar .custom-navbar-nav .nav-item .nav-link:hover {
   color: #6C63FF;
 }
 
 @media (max-width: 575.98px) {
-  header .navbar .custom-navbar-nav .nav-item .nav-link {
+  .navbar .custom-navbar-nav .nav-item .nav-link {
     padding: .5rem .5rem;
   }
 }
 
-header .navbar .nav-btn {
+.navbar .nav-btn {
   width: 90px;
   height: 35px;
   font-size: 14px;
@@ -192,7 +186,7 @@ header .navbar .nav-btn {
   transition: all 350ms ease;
 }
 
-header .navbar .nav-btn.nav-btn1 {
+.navbar .nav-btn.nav-btn1 {
   font-family: axiforma-Bold;
   background-color: #6C63FF;
   -webkit-box-shadow: 0px 10px 25px rgba(108, 99, 255, 0.502);
@@ -201,20 +195,20 @@ header .navbar .nav-btn.nav-btn1 {
   margin-left: 15px;
 }
 
-header .navbar .nav-btn:hover {
+.navbar .nav-btn:hover {
   background-color: #6861E8;
   color: #ffffff;
 }
 
 @media (max-width: 575.98px) {
-  header .navbar .nav-btn {
+  .navbar .nav-btn {
     height: 34px;
     margin-bottom: 9%;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  header .navbar .nav-btn {
+  .navbar .nav-btn {
     height: 34px;
     margin-bottom: 9%;
   }
