@@ -1774,6 +1774,22 @@ footer .social-media .social-links i {
   }
 }
 
+.choose .choose-title5 {
+  margin-top: 5%;
+}
+
+@media (max-width: 575.98px) {
+  .choose .choose-title5 {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .choose .choose-title5 {
+    margin-top: 0px;
+  }
+}
+
 .pricing-table {
   margin-top: 3%;
   border-radius: 4px;

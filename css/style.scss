@@ -1496,6 +1496,15 @@ footer{
             font-size: 28px;
         }
     }
+    .choose-title5{
+        margin-top: 5%;
+        @include xsm{
+            margin-top: 0px;
+        }
+        @include sm{
+            margin-top: 0px;
+        }
+    }
 }
 
 
